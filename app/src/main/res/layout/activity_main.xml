@@ -5,7 +5,9 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
     android:orientation="vertical"
-    android:paddingTop="8dp">
+    android:paddingStart="@dimen/padding"
+    android:paddingTop="8dp"
+    android:paddingEnd="@dimen/padding">
 
     <TextView
         android:id="@+id/name_text"
@@ -28,6 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="603dp">
 
+        <TextView
+            android:id="@+id/bio_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio" />
     </ScrollView>
 
 </LinearLayout>
